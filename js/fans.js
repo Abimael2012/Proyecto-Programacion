@@ -1,4 +1,4 @@
-// ---------- Elementos del formulario ----------
+//Elementos del formulario
 const campoNombre = document.querySelector("#campo-nombre");
 const campoCiudad = document.querySelector("#campo-ciudad");
 const campoFavorita = document.querySelector("#campo-favorita");
@@ -6,7 +6,7 @@ const botonRegistrar = document.querySelector("#boton-registrar");
 const credencial = document.querySelector("#credencial");
 
 
-// ---------- Clic en "Sacar credencial" ----------
+// Clic en "Sacar credencial"
 botonRegistrar.addEventListener("click", () => {
 
     // 1. Guarda lo que escribió la persona (trim quita espacios sobrantes)
