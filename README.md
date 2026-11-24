@@ -3,9 +3,9 @@
 Sitio web responsivo e interactivo sobre NSQK y su álbum *mosca*.
 Proyecto del segundo parcial de Programación Web, 5-D ICI, FIME, Universidad de Colima.
 
-Este repositorio empieza vacío a propósito: **cada integrante sube su parte** desde su propia rama, se revisa y, cuando está bien, se une a `main`.
+Cada integrante subió su parte desde su propia rama; se revisó y después se unió a `main`.
 
-📚 **Antes de programar, practica tu parte aquí:** https://abimael2012.github.io/taller-nsqk/
+Sitio publicado: https://abimael2012.github.io/Proyecto-Programacion/
 
 ---
 
@@ -13,13 +13,13 @@ Este repositorio empieza vacío a propósito: **cada integrante sube su parte** 
 
 | Parte | Rama | Archivos | Encargado |
 |---|---|---|---|
-| Inicio | `parte-inicio` | `index.html`, `css/estilos.css`, `js/canciones.js` | por asignar |
-| Biografía | `parte-biografia` | `html/biografia.html` | por asignar |
-| Discografía | `parte-discografia` | `html/discografia.html` | por asignar |
-| Tour (catálogo) | `parte-tour` | `html/tour.html`, `js/tour.js` | por asignar |
-| Club de fans (formulario) | `parte-fans` | `html/fans.html`, `js/fans.js` | por asignar |
+| Inicio | `parte-inicio` | `index.html`, `css/estilos.css`, `js/canciones.js` | Abimael |
+| Biografía | `parte-biografia` | `html/biografia.html` | Lucero |
+| Discografía | `parte-discografia` | `html/discografia.html` | Karim |
+| Tour (catálogo) | `parte-tour` | `html/tour.html`, `js/tour.js` | Irvin |
+| Club de fans (formulario) | `parte-fans` | `html/fans.html`, `js/fans.js` | Adrian |
 
-Así va quedando la carpeta:
+Así quedó la carpeta:
 
 ```
 Proyecto-Programacion/
