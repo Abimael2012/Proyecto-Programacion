@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de Fans | NSQK</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="bg-black text-neutral-300">
+
+    <!-- ========== Menú ========== -->
+    <header class="sticky top-0 z-50 bg-black border-b border-neutral-800">
+        <nav class="flex flex-col md:flex-row justify-between items-center gap-3 px-6 py-4">
+            <a href="../index.html" class="logo text-3xl text-white">NSQK</a>
+            <ul class="flex flex-wrap justify-center gap-x-5 gap-y-1 text-sm uppercase font-bold">
+                <li><a href="../index.html" class="hover:text-[#d9f20b] transition">Inicio</a></li>
+                <li><a href="biografia.html" class="hover:text-[#d9f20b] transition">Biografía</a></li>
+                <li><a href="discografia.html" class="hover:text-[#d9f20b] transition">Discografía</a></li>
+                <li><a href="tour.html" class="hover:text-[#d9f20b] transition">Tour</a></li>
+                <li><a href="fans.html" class="text-[#d9f20b]">Club de fans</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-6 py-12">
+
+        <!-- ========== Título ========== -->
+        <h1 class="text-5xl md:text-7xl text-white leading-none mb-3">Club de <span class="text-[#d9f20b]">fans</span></h1>
+        <p class="mb-8">Llena tus datos y saca tu credencial de fan de NSQK.</p>
+
+        <!-- ========== Formulario ========== -->
+        <form class="bg-neutral-900/60 rounded-xl p-6 space-y-4 max-w-md">
+            <div>
+                <label for="campo-nombre" class="block mb-1">Nombre</label>
+                <input id="campo-nombre" type="text" placeholder="Tu nombre"
+                       class="w-full bg-neutral-800 rounded-lg px-3 py-2 text-white">
+            </div>
+            <div>
+                <label for="campo-ciudad" class="block mb-1">Ciudad</label>
+                <input id="campo-ciudad" type="text" placeholder="Tu ciudad"
+                       class="w-full bg-neutral-800 rounded-lg px-3 py-2 text-white">
+            </div>
+            <div>
+                <label for="campo-favorita" class="block mb-1">Canción favorita</label>
+                <input id="campo-favorita" type="text" placeholder="Tu canción favorita"
+                       class="w-full bg-neutral-800 rounded-lg px-3 py-2 text-white">
+            </div>
+
+            <!-- type="button" evita que la página se recargue -->
+            <button id="boton-registrar" type="button"
+                    class="bg-[#d9f20b] text-black font-bold uppercase px-6 py-2 rounded-full hover:bg-white transition">
+                Sacar credencial
+            </button>
+        </form>
+
+        <!-- ========== Aquí aparece el aviso o la credencial ========== -->
+        <div id="credencial" class="mt-8 max-w-md" aria-live="polite"></div>
+
+    </main>
+
+    <!-- ========== Pie de página ========== -->
+    <footer class="bg-black border-t border-neutral-800 text-center text-sm py-8 px-6 mt-12">
+        <p>Blog de fans de NSQK · Programación Web 5-D · FIME, Universidad de Colima</p>
+        <p class="text-neutral-500 mt-1">Proyecto escolar sin fines de lucro.</p>
+    </footer>
+
+    <!-- ========== Unión con el JS ========== -->
+    <script src="../js/fans.js"></script>
+</body>
+</html>
